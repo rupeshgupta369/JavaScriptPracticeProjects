@@ -12,7 +12,7 @@
     <button id='dark'>Switch to Dark Mode</button>
 
     <button id='light'>Switch to Light Mode</button>
-    
+
     <h4 id='time'></h4>
 
     <h2 class="less">Sample Text</h2>
@@ -33,21 +33,21 @@
             document.body.style.color = "green";
             document.body.style.fontFamily = "Helvetica";
         }
-    //     /***************************/
-    const lightMode = document.getElementById('light')
+        //     /***************************/
+        const lightMode = document.getElementById('light')
 
-   lightMode.onclick = function changeColorAgain() {
-         document.body.style.backgroundColor = "white";
-        document.body.style.color = "black";
-         document.body.style.fontFamily = ""; 
-   }
+        lightMode.onclick = function changeColorAgain() {
+            document.body.style.backgroundColor = "white";
+            document.body.style.color = "black";
+            document.body.style.fontFamily = "";
+        }
         /********************************/
 
         const realTime = document.getElementById('time')
 
         function clock() {
             let date = new Date();
-            let time =date.toLocaleTimeString()
+            let time = date.toLocaleTimeString()
             // let time2 = date.toLocaleDateString()
             realTime.innerText = time;
         }
