@@ -19,8 +19,8 @@ console.log(text);
 
 // button.addEventListener('click', function () { })
 
-//regex intro
+/* //regex intro
 const str = "hello how are you?";
 const pattern = /how/;
 
-console.log(pattern.test(str));
+console.log(pattern.test(str)); */
