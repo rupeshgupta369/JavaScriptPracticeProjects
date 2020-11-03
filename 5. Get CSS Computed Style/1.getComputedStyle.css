@@ -1,0 +1,62 @@
+body {
+  background: rgb(66, 66, 66);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.red {
+  background: red;
+  margin-right: 5px;
+}
+.green {
+  background: green;
+  margin-right: 5px;
+}
+.blue {
+  background: blue;
+  margin-right: 5px;
+}
+.yellow {
+  background: yellow;
+  margin-right: 5px;
+}
+.orange {
+  background: orange;
+}
+
+.center {
+  min-width: 400px;
+  height: 400px;
+  background: rgb(66, 66, 66);
+  border-radius: 100%;
+  transition: 0.2s ease-in-out all;
+}
+.color-hover {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.text {
+  padding: 10px;
+  color: #ffffff;
+}
+.color {
+  width: 120px;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+.color:hover {
+  cursor: pointer;
+}
+.color:last-child {
+  margin-bottom: 0;
+}
