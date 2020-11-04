@@ -1,0 +1,23 @@
+body{
+    background-image: url("lotus.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.button{
+    border:none;
+    color: whiblackte;
+    padding: 20px 25px;
+    font-size: 26px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.button1{
+    background-color: #29e5bf;
+}
+
+#p{
+    color: black;
+}
