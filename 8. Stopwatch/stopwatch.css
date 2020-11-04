@@ -1,0 +1,47 @@
+/* body, html {
+  height: 100%;
+} */
+
+body{
+    height: 100%;
+    background-image: url(timer.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#h1Id{
+    margin-left: 50px;
+    
+}
+
+#h,#m,#s,#btn{
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+}
+
+#h{
+    margin-left: 50px;
+    width: 100px;
+    height: 20px;
+}
+
+#m{
+    width: 100px;
+    height: 20px;
+}
+
+#s{
+    width: 100px;
+    height: 20px;
+}
+
+#btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(93, 188, 210);
+    font-size: larger;
+}
